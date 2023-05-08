@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="Made changes in Main.java" />
+    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="Declared a constant">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car/June.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,13 +44,46 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Car.Main">
+  <component name="RunManager" selected="Application.Casting">
     <configuration name="Car.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Car.Main" />
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Car.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kilometers.Casting" />
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Kilometers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kilometers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Car.Kilometers" />
+      <module name="Calculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kilometers.Kilometers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kilometers.Kilometers" />
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Kilometers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,6 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Casting" />
+        <item itemvalue="Application.Kilometers.Kilometers" />
+        <item itemvalue="Application.Kilometers" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -91,7 +131,9 @@
       <workItem from="1682403489438" duration="11830000" />
       <workItem from="1682868695845" duration="3654000" />
       <workItem from="1683042635833" duration="467000" />
-      <workItem from="1683124448452" duration="1696000" />
+      <workItem from="1683124448452" duration="2222000" />
+      <workItem from="1683275477386" duration="7390000" />
+      <workItem from="1683520750505" duration="1150000" />
     </task>
     <task id="LOCAL-00001" summary="in">
       <created>1682405165267</created>
@@ -107,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683125557088</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Made changes in Main.java">
+      <created>1683126756239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683126756239</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Declared a constant">
+      <created>1683281485296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683281485296</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +183,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="in" />
     <MESSAGE value="Made changes in Main.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made changes in Main.java" />
+    <MESSAGE value="Declared a constant" />
+    <option name="LAST_COMMIT_MESSAGE" value="Declared a constant" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Kilometers/Casting.java</url>
+          <line>3</line>
+          <properties class="Kilometers.Casting" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

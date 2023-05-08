@@ -1,14 +1,12 @@
 package Car;
-
+import java.util.Scanner;
 public class Main {
-    public static void main(String[]args){
-        Car car = new Car("mazda","KCA 123K", "white");
-        System.out.println(car);
+    public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      System.out.print("What is your name?: ");
+      String name = input.nextLine();
 
-        car.setColor("yellow");
-        System.out.println(car);
+      System.out.println("Your name is" + name);
 
-        car.startCar();
-        car.carryGoods();
     }
 }
