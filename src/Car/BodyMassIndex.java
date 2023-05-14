@@ -12,8 +12,11 @@ public class BodyMassIndex {
         final double METER_INCH = 0.0254;
         double newWeight= weight * KILOGRAM_PER_POUND;
         double newHeight= height * METER_INCH;
-        double bmi= newWeight / newHeight*newHeight;
+        double bmi= newWeight/(newHeight*newHeight);
 
+
+        System.out.println("Weight in kg is" + " "+ newWeight+ ":" );
+        System.out.println("Height in meters is"+ " " + newHeight+ ":");
         System.out.println("BMI is"+" "+ bmi);
         if (bmi<=18.5)
             System.out.println("Underweight");
