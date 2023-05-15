@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="calculated bmi.">
+    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="made changes in bmi.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Car/BodyMassIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car/BodyMassIndex.java" afterDir="false" />
     </list>
@@ -149,6 +149,7 @@
       <workItem from="1683520750505" duration="4057000" />
       <workItem from="1683545311742" duration="2214000" />
       <workItem from="1684047747562" duration="7145000" />
+      <workItem from="1684144951480" duration="1931000" />
     </task>
     <task id="LOCAL-00001" summary="in">
       <created>1682405165267</created>
