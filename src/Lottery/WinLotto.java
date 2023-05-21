@@ -1,5 +1,6 @@
 package Lottery;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class WinLotto {
@@ -8,13 +9,14 @@ public class WinLotto {
                 "SUCCESS TO ALL PLAYERS! ");
         int lotDigit = (int) (Math.random() * 100);
         Scanner scanner = new Scanner(System.in);
-       try{
            System.out.print("Enter your lucky two digit number: ");
-           int luckyDigits = scanner.nextInt();
-       }catch ( ArithmeticException e){
-           System.out.println("Sorry...It must be an integer");
+           int luckyDigits = 0;
+          try{ luckyDigits = scanner.nextInt();
+          }catch ( InputMismatchException e){
+          System.out.println("enter a digit...Try again");
+          return;
        }
-        int luckyDigits = scanner.nextInt();
+
 
         int getLuckyDigit1 = luckyDigits / 10;
         int getLuckyDigit2 = luckyDigits % 10;

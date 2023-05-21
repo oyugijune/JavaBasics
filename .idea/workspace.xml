@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="made changes in bmi.">
+    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="Lottery.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car/BodyMassIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car/BodyMassIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lottery/WinLotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lottery/WinLotto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BodyMassIndex">
+  <component name="RunManager" selected="Application.WinLotto">
     <configuration name="BodyMassIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Car.BodyMassIndex" />
       <module name="Calculator" />
@@ -90,19 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kilometers.Kilometers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kilometers.Kilometers" />
-      <module name="Calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Kilometers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Time" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kilometers.Time" />
       <module name="Calculator" />
@@ -116,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WinLotto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lottery.WinLotto" />
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lottery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WinLotto" />
         <item itemvalue="Application.BodyMassIndex" />
         <item itemvalue="Application.Time" />
         <item itemvalue="Application.CurrentTime" />
         <item itemvalue="Application.Casting" />
-        <item itemvalue="Application.Kilometers.Kilometers" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,11 @@
       <workItem from="1683520750505" duration="4057000" />
       <workItem from="1683545311742" duration="2214000" />
       <workItem from="1684047747562" duration="7145000" />
-      <workItem from="1684144951480" duration="1931000" />
+      <workItem from="1684144951480" duration="2065000" />
+      <workItem from="1684241661816" duration="2034000" />
+      <workItem from="1684247233645" duration="4277000" />
+      <workItem from="1684304159389" duration="7530000" />
+      <workItem from="1684662548703" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="in">
       <created>1682405165267</created>
@@ -207,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684054479475</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="made changes in bmi.">
+      <created>1684147065877</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684147065877</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Lottery.">
+      <created>1684309909337</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684309909337</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +250,9 @@
     <MESSAGE value="Found current time using java." />
     <MESSAGE value="used % operator." />
     <MESSAGE value="calculated bmi." />
-    <option name="LAST_COMMIT_MESSAGE" value="calculated bmi." />
+    <MESSAGE value="made changes in bmi." />
+    <MESSAGE value="Lottery." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lottery." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
