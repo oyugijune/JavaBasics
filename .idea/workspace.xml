@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="Lottery.">
+    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="Calculating tax.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WinLotto">
+  <component name="RunManager" selected="Application.Tax">
     <configuration name="BodyMassIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Car.BodyMassIndex" />
       <module name="Calculator" />
@@ -117,8 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WinLotto" />
         <item itemvalue="Application.Tax" />
+        <item itemvalue="Application.WinLotto" />
         <item itemvalue="Application.BodyMassIndex" />
         <item itemvalue="Application.Time" />
         <item itemvalue="Application.CurrentTime" />
@@ -155,7 +155,8 @@
       <workItem from="1684662548703" duration="11526000" />
       <workItem from="1684676552216" duration="3395000" />
       <workItem from="1684685412125" duration="2897000" />
-      <workItem from="1684690882198" duration="4542000" />
+      <workItem from="1684690882198" duration="5044000" />
+      <workItem from="1684741835004" duration="4945000" />
     </task>
     <task id="LOCAL-00001" summary="in">
       <created>1682405165267</created>
@@ -234,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684663314374</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Calculating tax.">
+      <created>1684695851503</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684695851503</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +269,8 @@
     <MESSAGE value="calculated bmi." />
     <MESSAGE value="made changes in bmi." />
     <MESSAGE value="Lottery." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lottery." />
+    <MESSAGE value="Calculating tax." />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculating tax." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
