@@ -42,20 +42,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Tax">
-    <configuration name="BodyMassIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Car.BodyMassIndex" />
-      <module name="Calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Car.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SubtractionLoop">
     <configuration name="Car.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Car.Main" />
       <module name="Calculator" />
@@ -69,8 +56,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrentTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CurrentTime" />
+    <configuration name="FormatSpecifiers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FormatSpecifiers" />
+      <module name="Calculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubtractionLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SubtractionLoop" />
       <module name="Calculator" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,19 +76,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lottery.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Time" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kilometers.Time" />
-      <module name="Calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Kilometers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="areaOfTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lottery.areaOfTriangle" />
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lottery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubtractionLoop" />
+        <item itemvalue="Application.FormatSpecifiers" />
+        <item itemvalue="Application.areaOfTriangle" />
         <item itemvalue="Application.Tax" />
         <item itemvalue="Application.WinLotto" />
-        <item itemvalue="Application.BodyMassIndex" />
-        <item itemvalue="Application.Time" />
-        <item itemvalue="Application.CurrentTime" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +150,12 @@
       <workItem from="1684676552216" duration="3395000" />
       <workItem from="1684685412125" duration="2897000" />
       <workItem from="1684690882198" duration="5044000" />
-      <workItem from="1684741835004" duration="4945000" />
+      <workItem from="1684741835004" duration="9531000" />
+      <workItem from="1684846005015" duration="4555000" />
+      <workItem from="1684999901056" duration="5182000" />
+      <workItem from="1685077859364" duration="2554000" />
+      <workItem from="1685360677763" duration="964000" />
+      <workItem from="1685434327127" duration="7589000" />
     </task>
     <task id="LOCAL-00001" summary="in">
       <created>1682405165267</created>
@@ -242,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684695851503</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Calculating tax.">
+      <created>1684747438836</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684747438837</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
