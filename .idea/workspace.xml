@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="Subtraction and loops.">
+    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="Using format specifiers.">
+      <change afterPath="$PROJECT_DIR$/src/FormatSpecifiers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CurrentTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lottery/CurrentTime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SubtractionLoop">
+  <component name="RunManager" selected="Application.SentinelControlledLoop">
     <configuration name="Car.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Car.Main" />
       <module name="Calculator" />
@@ -67,8 +67,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SentinelControlledLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SentinelControlledLoop" />
+      <module name="Calculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubtractionLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SubtractionLoop" />
+      <option name="MAIN_CLASS_NAME" value="Lottery.SubtractionLoop" />
       <module name="Calculator" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,19 +83,6 @@
     </configuration>
     <configuration name="Tax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lottery.Tax" />
-      <module name="Calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lottery.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WinLotto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lottery.WinLotto" />
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SentinelControlledLoop" />
         <item itemvalue="Application.SubtractionLoop" />
         <item itemvalue="Application.FormatSpecifiers" />
         <item itemvalue="Application.areaOfTriangle" />
         <item itemvalue="Application.Tax" />
-        <item itemvalue="Application.WinLotto" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +153,7 @@
       <workItem from="1684999901056" duration="5182000" />
       <workItem from="1685077859364" duration="2554000" />
       <workItem from="1685360677763" duration="964000" />
-      <workItem from="1685434327127" duration="8263000" />
+      <workItem from="1685434327127" duration="12908000" />
     </task>
     <task id="LOCAL-00001" summary="in">
       <created>1682405165267</created>
@@ -259,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685442948947</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Subtraction and loops.">
+      <created>1685443616580</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685443616580</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +289,8 @@
     <MESSAGE value="Lottery." />
     <MESSAGE value="Calculating tax." />
     <MESSAGE value="Subtraction and loops." />
-    <option name="LAST_COMMIT_MESSAGE" value="Subtraction and loops." />
+    <MESSAGE value="Using format specifiers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Using format specifiers." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
