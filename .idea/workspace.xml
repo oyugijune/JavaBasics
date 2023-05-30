@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="Calculating tax.">
+    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="Subtraction and loops.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurrentTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lottery/CurrentTime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/SubtractionLoop.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="2OVzvanizrh5A4twGQS0dxI0P8u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -155,7 +159,7 @@
       <workItem from="1684999901056" duration="5182000" />
       <workItem from="1685077859364" duration="2554000" />
       <workItem from="1685360677763" duration="964000" />
-      <workItem from="1685434327127" duration="7589000" />
+      <workItem from="1685434327127" duration="8263000" />
     </task>
     <task id="LOCAL-00001" summary="in">
       <created>1682405165267</created>
@@ -248,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684747438837</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Subtraction and loops.">
+      <created>1685442948947</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685442948947</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +287,8 @@
     <MESSAGE value="made changes in bmi." />
     <MESSAGE value="Lottery." />
     <MESSAGE value="Calculating tax." />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculating tax." />
+    <MESSAGE value="Subtraction and loops." />
+    <option name="LAST_COMMIT_MESSAGE" value="Subtraction and loops." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
