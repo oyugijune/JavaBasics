@@ -1,6 +1,7 @@
 import java.util.Scanner;
+
 public class SentinelControlledLoop {
-    public static void main(String[]args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a digit(if you enter 0 the programme will terminate)");
         int number = input.nextInt();
@@ -11,7 +12,7 @@ public class SentinelControlledLoop {
             number = input.nextInt();
             sum += number;
         }
-        System.out.println("The sum is " + sum );
+        System.out.println("The sum is " + sum);
 
     }
 }
