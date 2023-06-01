@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="Used sentinel to control loop statement.">
+    <list default="true" id="4749f3f8-806d-4f14-a27e-9cb58502ac71" name="Changes" comment="creating patterns using while loops.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SentinelControlledLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SentinelControlledLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormatSpecifiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormatSpecifiers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Loops">
+  <component name="RunManager" selected="Application.FormatSpecifiers">
     <configuration name="Car.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Car.Main" />
       <module name="Calculator" />
@@ -103,10 +103,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FormatSpecifiers" />
         <item itemvalue="Application.Loops" />
         <item itemvalue="Application.SentinelControlledLoop" />
         <item itemvalue="Application.SubtractionLoop" />
-        <item itemvalue="Application.FormatSpecifiers" />
         <item itemvalue="Application.areaOfTriangle" />
       </list>
     </recent_temporary>
@@ -149,7 +149,7 @@
       <workItem from="1685360677763" duration="964000" />
       <workItem from="1685434327127" duration="13387000" />
       <workItem from="1685600414546" duration="7524000" />
-      <workItem from="1685637395359" duration="2326000" />
+      <workItem from="1685637395359" duration="3590000" />
     </task>
     <task id="LOCAL-00001" summary="in">
       <created>1682405165267</created>
@@ -277,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685601339583</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="creating patterns using while loops.">
+      <created>1685640168372</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1685640168389</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +315,8 @@
     <MESSAGE value="Subtraction and loops." />
     <MESSAGE value="Using format specifiers." />
     <MESSAGE value="Used sentinel to control loop statement." />
-    <option name="LAST_COMMIT_MESSAGE" value="Used sentinel to control loop statement." />
+    <MESSAGE value="creating patterns using while loops." />
+    <option name="LAST_COMMIT_MESSAGE" value="creating patterns using while loops." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
